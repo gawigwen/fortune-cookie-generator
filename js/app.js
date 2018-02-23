@@ -9,12 +9,17 @@ var fortunes = [
 	"You will get depression",
 	"You will lose all your ranked games",
 	"You will step on a lego",
-	"A lightning will struck you"
+	"A lightning will struck you",
+	"You control your own fortune",
+	"Undefined fortune"
 ];
 
 function clicked(){
-	var x = fortunes[Math.floor((Math.random() * 10) + 1)];//
+	var x = fortunes[Math.floor((Math.random() * 12) + 1)];
     document.getElementById("fortune-cookie-text").innerHTML = x;
 };
+
+document.getElementById("lists").innerHTML = x;
+
 
 

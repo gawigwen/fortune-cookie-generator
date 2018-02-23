@@ -1,4 +1,4 @@
-body {background-color:yellow}
+body {background-color:white}
 #button1 {
 	display: block;
     margin-left: auto;
@@ -6,10 +6,10 @@ body {background-color:yellow}
     margin-top: 3%;
     width: 20%;
     height:50px;
-    color: blue;
+    color: green;
 }
 #fortune-cookie-text {
-    background: red;
+    background:green;
     padding: 20px; 
     width: 200px;
     height: 150px;
@@ -22,4 +22,6 @@ body {background-color:yellow}
     margin-left: 40%;
     margin-right: 40%;
     font-family: times;
+    color:green;
 }
+
