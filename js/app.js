@@ -19,7 +19,10 @@ function clicked(){
     document.getElementById("fortune-cookie-text").innerHTML = x;
 };
 
-document.getElementById("lists").innerHTML = x;
+ var list = document.createElement("LI");
+ var textnode = document.createTextNode(x);
+ list.appendChild(textnode);
+ document.getElementById("lists").appendChild(list);
 
 
 
